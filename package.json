@@ -1,7 +1,7 @@
 {
   "name": "@theboringschool/pwd-hash",
-  "version": "1.0.1",
-  "description": "Hashing passwords backed by core cipher & decipher module by Node.js.",
+  "version": "1.0.3",
+  "description": "Cipher & Decipher Message using aes-256-cbc algorithm on Communication",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +20,8 @@
     "hash",
     "cipher",
     "decipher",
-    "password",
+    "aes-256-cbc",
+    "communication",
     "crypto",
     "security",
     "pwd-hash"

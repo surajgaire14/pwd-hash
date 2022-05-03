@@ -1,17 +1,15 @@
 # pwd-hash
 
 ### To Encrypt Password
-use hash(), where first parameter is plain password, and second parameter is security key.
-
-For Higher Security: use `const Securitykey = crypto.randomBytes(32);` and store it in .env file.
+use hash(), where parameter is plain text.
 ```
-const pwdHash = require('pwd-hash');
-const hash = pwdHash.hash('password', 'securityKey');
+const stringHash = require('pwd-hash');
+const hash = stringHash.hash('text');
 ```
 
 ### To Decrypt Password
-use verify(), where first parameter is hashed password, and second parameter is security key.
+use verify(), where parameter is hashed string.
 ```
-const pwdHash = require('pwd-hash');
-const hash = pwdHash.verify('hashed password', 'securityKey');
+const stringHash = require('pwd-hash');
+const hash = stringHash.verify('hashed string');
 ```
