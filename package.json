@@ -1,6 +1,6 @@
 {
   "name": "@theboringschool/pwd-hash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hashing passwords backed by core cipher & decipher module by Node.js.",
   "main": "index.js",
   "scripts": {
