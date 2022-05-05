@@ -1,7 +1,7 @@
 {
   "name": "@theboringschool/pwd-hash",
-  "version": "1.0.3",
-  "description": "Cipher & Decipher Message using aes-256-cbc algorithm on Communication",
+  "version": "1.0.4",
+  "description": "Encrypt & Decrypt communication message using aes-256-cbc algorithm for protocol.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,9 @@
     "communication",
     "crypto",
     "security",
-    "pwd-hash"
+    "pwd-hash",
+    "encrypt",
+    "decrypt"
   ],
   "homepage": "https://github.com/theboringschool/pwd-hash#readme",
   "dependencies": {
