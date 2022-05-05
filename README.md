@@ -18,9 +18,9 @@ const hash = stringHash.decrypt('hashed string');
 ```
 
 ### To verify string
-Use decrypt(param), where parameter is hashed string.
+Use verify(param1, param2), where parameter param1 is plain string and param2 is hashed string.
 Returns Decrypted String.
 ```
 const stringHash = require('pwd-hash');
-const hash = stringHash.decrypt('hashed string');
+const isSame = stringHash.verify('plain string','hashed string');
 ```

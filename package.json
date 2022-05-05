@@ -1,6 +1,6 @@
 {
   "name": "@theboringschool/pwd-hash",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Encrypt & Decrypt communication message using aes-256-cbc algorithm for protocol.",
   "main": "index.js",
   "scripts": {
